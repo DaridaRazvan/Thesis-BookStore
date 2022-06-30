@@ -1,0 +1,31 @@
+.book{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: 1rem;
+    border-right: 1px solid #000000;
+}
+
+.pic{
+    width: 100px;
+    height: 150px;
+}
+
+.flex{
+    display:flex;
+}
+
+.right{
+    border-left: 30px;
+}
+
+.right p{
+    color:black;
+}
+
+.right h4{
+    color:black;
+}
+

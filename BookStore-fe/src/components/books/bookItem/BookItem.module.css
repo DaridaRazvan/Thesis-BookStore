@@ -1,0 +1,37 @@
+.book {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .book h3 {
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .author {
+    font-style: italic;
+  }
+
+  .pic{
+      float:left;
+      width:128px;
+      height:192px;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
+
+.divBook:hover{
+    cursor: pointer;
+}
+
+.divBook{
+    display:flex;
+    gap: 30px;
+}

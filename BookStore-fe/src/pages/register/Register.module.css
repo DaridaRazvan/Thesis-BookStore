@@ -1,0 +1,62 @@
+.register{
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    border-radius: 14px;
+    background-color: white;
+    margin-top:20px;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.userCreated{
+    color: green;
+}
+
+.failedToCreateUser{
+    color:red;
+}
+
+.control label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.control input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.register button {
+    font: inherit;
+    background-color: #5a1a01;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+}
+
+.register button:hover,
+.register button:active {
+    background-color: #7a2706;
+}
+
+
+.invalid label {
+    color: #ca3e51;
+}
+
+.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+}
+
+.space{
+    margin-top:15px;
+}

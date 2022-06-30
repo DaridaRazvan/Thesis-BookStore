@@ -1,0 +1,41 @@
+.pages {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.pages ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pages ul li{
+    display: inline;
+}
+
+.inLine {
+    position: relative;
+    display: inline-block;
+}
+
+.pages button {
+    font: inherit;
+    color: #5a1a01;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+}
+
+.pages button:hover,
+.pages button:active {
+    background-color: #ffe6dc;
+}
+
+.center {
+    margin: 0 auto;
+    display:table;
+}
+
+

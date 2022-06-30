@@ -1,0 +1,36 @@
+.book{
+    margin: 150px auto auto 50px;
+    max-width: 90rem;
+    width: 90%;
+    animation: books-appear 1s ease-out forwards;
+}
+
+.review{
+    margin: 30px auto auto 50px;
+    max-width: 90rem;
+    width: 90%;
+    animation: books-appear 1s ease-out forwards;
+}
+
+.pic{
+    float:left;
+    width:128px;
+    height:192px;
+}
+
+.divBook{
+    display: flex;
+    gap: 30px;
+}
+
+@keyframes books-appear {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

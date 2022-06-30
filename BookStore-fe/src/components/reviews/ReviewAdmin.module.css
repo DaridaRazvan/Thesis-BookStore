@@ -1,0 +1,34 @@
+.review {
+    max-width: 30rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.review h3 {
+    margin: 0 0 0.25rem 0;
+    color: #8a2b06;
+}
+
+.reviewDiv{
+    margin-bottom:1rem;
+}
+
+.description {
+    font-style: italic;
+}
+
+.button{
+    font: inherit;
+    cursor: pointer;
+    float:right;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    border-radius: 20px;
+}
+
+.button:hover,
+.button:active {
+    background-color: #641e03;
+    border-color: #641e03;
+}

@@ -1,0 +1,34 @@
+.books {
+    max-width: 60rem;
+    width: 90%;
+    margin: 9rem auto;
+    animation: books-appear 1s ease-out forwards;
+}
+
+.books ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.BooksLoading{
+    text-align: center;
+    color: white;
+}
+
+.BooksError{
+    text-align: center;
+    color: red;
+}
+
+@keyframes books-appear {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
